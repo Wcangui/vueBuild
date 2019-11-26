@@ -1,0 +1,100 @@
+@charset "utf-8";
+.landbg{
+	background:#f2f3f5;
+	width: 100%;
+    min-width: 1200px;
+}
+.land .land_a{
+	border-color: transparent;
+	height: 35px;
+	width: 270px;
+}
+.land .dd{
+	width: 100%;
+	text-align: left;
+}
+.dc_size{
+	text-align: left;
+}
+.land .dd input{
+	font-size: 14px;
+}
+.ivu-input-group-append, .ivu-input-group-prepend{
+	background-color: transparent !important;
+	border:none !important;
+}
+.land .dd input:focus{
+	outline: 0;
+	box-shadow: 0 0;
+}
+.land .dd .pwd input:focus .ivu-input-group-append>span{
+	display: inline-block;
+}
+.land .dd input{
+	padding: 0;
+}
+.Land_main {
+	height: 360px;
+	width: 100%;
+	margin-top: 10%;
+	display: inline-block;
+}
+.land_maint {
+	width: 100%;
+	min-width: 1200px;
+	position: relative;
+	height: 325px;
+	background: url(../assets/land_bg.jpg) center no-repeat;
+}
+.land_maint>img {
+	width: 530px;
+	padding-top: 20px;
+	margin-left: 70px;
+}
+.land {
+	padding: 50px 40px;
+    background: #16284b;
+    border-radius: 10px;
+    position: absolute;
+    height: 370px;
+    right: 13%;
+    margin-top: 30px;
+    top: -50px;
+}
+.dc_size {
+	font-size: 35px;
+    color: #1c315d;
+    font-weight: bold;
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 60px;
+    padding-left: 60px;
+}
+.land dt {
+	text-align: center;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 35px;
+}
+.land .dd {
+	background: #fff;
+    border: 1px solid #d2d2d2;
+    border-radius: 2px;
+    width: 275px;
+    padding: 3px 3px;
+    margin-top: 24px;
+}
+.land .dd input {
+	height: 26px;
+	border: none;
+	font-size: 14px;
+}
+.land .land_a {
+	float: left;
+	background: url(../assets/land_dl.png) center;
+	color: #fff;
+	text-align: center;
+	background-size: 100%;
+	border-radius: 2px;
+    margin: 30px 0 10px;
+}
